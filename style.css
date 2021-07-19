@@ -1,0 +1,30 @@
+.tile{
+    background-color: black;
+    height: 12px;
+    width: 12px;
+    margin: 0px;
+}
+.water{
+    background-color: blue;
+    height: 12px;
+    width: 12px;
+    margin: 0px;
+
+}
+.land{
+    background-color: green;
+    height: 12px;
+    width: 12px;
+    margin: 0px;
+}
+.column{
+    background-color: red;
+    border:solid black 1px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 480px;
+    width: 480px;
+    justify-content: center;
+    align-items: center;
+}
