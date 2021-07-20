@@ -1,20 +1,20 @@
 .tile{
     background-color: black;
-    height: 12px;
-    width: 12px;
+    height: 5px;
+    width: 5px;
     margin: 0px;
 }
 .water{
     background-color: blue;
-    height: 12px;
-    width: 12px;
+    height: 5px;
+    width: 5px;
     margin: 0px;
 
 }
 .land{
     background-color: green;
-    height: 12px;
-    width: 12px;
+    height: 5px;
+    width: 5px;
     margin: 0px;
 }
 .column{
@@ -23,8 +23,8 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 480px;
-    width: 480px;
+    height: 500px;
+    width: 500px;
     justify-content: center;
     align-items: center;
 }
