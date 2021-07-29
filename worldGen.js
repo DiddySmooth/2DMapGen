@@ -4,6 +4,8 @@ const container = document.createElement('div')
 container.classList.add("container")
 const map = document.querySelector(".map")
 console.log("setup")
+
+
 for(let j = 0; j< 100; j++){
     for( let i = 0; i < 100; i++){
         const square = document.createElement('div')
@@ -16,7 +18,7 @@ map.append(container)
 
 
 
-let state = 0;
+
 
 const cleanPass = () => {
     const map1 = document.querySelectorAll(".tile")
@@ -251,7 +253,7 @@ const fifthPass = () => {
                 }
             }
             else if(map1[i-1].classList[1] == "land"){
-                rand = Math.floor(Math.random() * 7);
+                rand = Math.floor(Math.random() * 4);
                 if(rand == 0){
                     map1[i].classList.add("water")
                 }
@@ -262,27 +264,4 @@ const fifthPass = () => {
         }
     }
 }
-document.querySelector(".next").addEventListener("click", function() {
-    
-    console.log("click")
-    state = state + 1
-    if(state == 1){
-        cleanPass()
-        firstPass()
-    }
-    else if(state == 2){
-        cleanPass()
-        secondPass()
-    }
-    else if(state == 3){
-        cleanPass()
-        thirdPass()
-    }
-    else if (state == 4){
-        fourthPass()
-    }
-    else if (state == 5){
-        cleanPass()
-        fifthPass()
-    }
-})
+
