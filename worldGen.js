@@ -183,6 +183,7 @@ const fifthPass = () => {
     const map1 = document.querySelectorAll(".tile")
     
     for(let i = 0; i < map1.length; i++){
+        map1[i].setAttribute('number', i)
         if(i % 100 < 2){
             map1[i].classList.add('water')
         }
