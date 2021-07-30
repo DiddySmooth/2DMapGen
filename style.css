@@ -1,26 +1,26 @@
 .tile{
     background-color: black;
-    height: 5px;
-    width: 5px;
+    height: 2px;
+    width: 2px;
     margin: 0px;
 }
 .water{
     background-color: blue;
-    height: 5px;
-    width: 5px;
+    height: 2px;
+    width: 2px;
     margin: 0px;
 
 }
 .land{
     background-color: green;
-    height: 5px;
-    width: 5px;
+    height: 2px;
+    width: 2px;
     margin: 0px;
 }
 .city{
     background-color: orange;
-    height: 5px;
-    width: 5px;
+    height: 2px;
+    width: 2px;
     margin: 0px;
 }
 .menu{
@@ -43,4 +43,7 @@
 }
 .next{
     width: 300px;
+}
+body{
+    background-color: black
 }

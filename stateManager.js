@@ -1,6 +1,10 @@
+// Used to keep track of the state of the entire Simulation
+// also runs some smaller utilities 
+
 let state = ""
 let year = 0
 
+// Buttons For menus
 document.querySelector(".start").addEventListener("click", function() {
     state = "start"
     console.log("click")
@@ -25,7 +29,7 @@ const stateManager = () => {
 const updateWorld = () => {
     updateYear()
     cities()
-    
+    citiesGrowth()
 }
 
 const updateYear = () => {
